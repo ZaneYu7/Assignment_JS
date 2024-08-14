@@ -1,11 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Inventory</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  
+  <div class="container">
+    <header class="header">
+      <h1>Inventory</h1>
+    </header>
+
+    <div class="nav-container">
+      <nav>
+        <a href="#" id="vegetables-tab" class="nav-link active">Vegetables</a>
+        <a href="#" id="spices-tab" class="nav-link">Spices</a>
+        <a href="#" id="fruits-tab" class="nav-link"></a>
+      </nav>
+    </div>
+
+    <main class="main-content">
+      <div id="vegetables-list" class="list-container">
+        <h2>List (2)</h2>
+        <ul>
+          <li class="list-item">Carrot</li>
+          <li class="list-item">Cucumber</li>
+        </ul>
+      </div>
+
+      <div id="spices-list" class="list-container hidden">
+        <h2>List (5)</h2>
+        <ul>
+          <li class="list-item">Salt</li>
+          <li class="list-item">Pepper</li>
+          <li class="list-item">Chilli</li>
+          <li class="list-item">Herbs</li>
+          <li class="list-item">Curry</li>
+        </ul>
+      </div>
+
+      <div id="fruits-list" class="list-container hidden">
+        <h2>List (8)</h2>
+        <ul>
+          <li class="list-item">Apple</li>
+          <li class="list-item">Banana</li>
+          <li class="list-item">Pear</li>
+          <li class="list-item">Watermelon</li>
+          <li class="list-item">Grape</li>
+          <li class="list-item">Strawberry</li>
+          <li class="list-item">Mango</li>
+          <li class="list-item">Blackberry</li>
+        </ul>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
 </body>
+
 </html>
